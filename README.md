@@ -57,4 +57,16 @@ Trạng thái (đang chạy hay đã dừng). Cấu hình mạng (IP, cổng). V
 ## COPY index.html /usr/share/nginx/html/index.html :  sao chép file index.html từ thư mục build vào container trong đường dẫn /usr/share/nginx/html/index.html. Đây là thư mục mặc định chứa file HTML của Nginx.
 ## docker build -t my_nginx_image .: build một Docker image từ Dockerfile trong thư mục hiện tại (.) và đặt tên cho nó là my_nginx_image.
 ![image](https://github.com/user-attachments/assets/285db0d6-55cd-4911-b07e-586b5795d628)
+# Phần 2:
+## Câu 1: Bài 1: Tạo Dockerfile chạy một ứng dụng Node.js đơn giản	
+	Yêu cầu:
+	Viết Dockerfile để chạy một ứng dụng Node.js hiển thị "Hello, Docker!" trên cổng 3000.
+	Sử dụng node:18 làm base image.
+ ![image](https://github.com/user-attachments/assets/88f8a366-2213-4c36-8b20-a2c443afa855)
+ ![image](https://github.com/user-attachments/assets/792b9ab2-1e0d-44dd-b28b-8e68f65925d7)
+![image](https://github.com/user-attachments/assets/581c0924-4dc0-4c33-b663-5a68513698c3)
+![image](https://github.com/user-attachments/assets/814ce159-5ddc-440c-869c-629f6f71f50b)
+![image](https://github.com/user-attachments/assets/5832b3f3-1b48-4d9f-bcc3-611d5da48da3)
+
+![image](https://github.com/user-attachments/assets/f31a009a-ba8a-4de0-af3d-8aa7f0e75fb5)
 
