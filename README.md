@@ -70,3 +70,65 @@ Trạng thái (đang chạy hay đã dừng). Cấu hình mạng (IP, cổng). V
 
 ![image](https://github.com/user-attachments/assets/f31a009a-ba8a-4de0-af3d-8aa7f0e75fb5)
 
+## Bài 2: Tạo Dockerfile chạy MySql với Docker Compose
+Yêu cầu: Tạo một container chạy MySQL phiên bản 8.0
+Đặt username là user, password là pasword và database là mydb
+![image](https://github.com/user-attachments/assets/e512dd13-a329-4e36-af99-67fbbef5912e)
+![image](https://github.com/user-attachments/assets/f3777dd6-2d7b-411d-955b-c34a96462580)
+![image](https://github.com/user-attachments/assets/4b42ff92-2663-4a7e-854c-3ce9d2c6ddcf)
+
+## Bài 3: kết nối MySql và PHPMyadmin
+Yêu cầu chạy MYsql và phpmyadmin với DOcker compose
+PHPMyadmin chạy trên cổng 8081
+![image](https://github.com/user-attachments/assets/9dbeb0c9-2560-4726-bde2-0f63b1ceeb57)
+![image](https://github.com/user-attachments/assets/f67841a9-958f-4d39-b316-e321d4e760a9)
+![image](https://github.com/user-attachments/assets/21cba1a9-eea6-47e6-8c03-50a819cff662)
+
+## Bài 4: Chạy ứng dụng Node.js với Docker Compose:
+Yêu cầu: Chạy một ứng dujngNOde.js đơn giản với Express
+![image](https://github.com/user-attachments/assets/c72a2921-15d3-42e3-bca9-10489034a6c7)
+![image](https://github.com/user-attachments/assets/f4c9ee98-614a-4bba-a136-ac4a100e3878)
+![image](https://github.com/user-attachments/assets/4be889fc-f8f8-4ffd-be3c-184732ebdf3a)
+![image](https://github.com/user-attachments/assets/ded81556-8baf-4a36-b5b8-2a1cce34b44a)
+![image](https://github.com/user-attachments/assets/d44bab89-615e-495e-ba40-0a0ed1c367d8)
+![image](https://github.com/user-attachments/assets/f7299299-ba7b-4091-b1cb-eb3fa5ec2613)
+
+## Bài 5: Chạy Redis với docker compose:
+Yêu cầu: Chạy một container Redis trên cổng 6379
+![image](https://github.com/user-attachments/assets/98055e2f-1275-42ec-96d9-5625ce809782)
+![image](https://github.com/user-attachments/assets/99ea2034-aa18-44f7-af38-8a9bb398bc45)
+![image](https://github.com/user-attachments/assets/2058bfcd-1235-438c-9e79-ff82b257607e)
+
+## Bài 6: Chạy wordPressv ới MYsql
+Yêu cầu chạy wordpress với mysql bằng docker compose
+![image](https://github.com/user-attachments/assets/5a8c821e-c73f-4fb4-9079-25ae962c864c)
+![image](https://github.com/user-attachments/assets/80e68957-ea1d-4a64-ba86-013f54f9cbe8)
+![image](https://github.com/user-attachments/assets/6a6881c3-581e-4713-bca0-4c94a9f9c339)
+![image](https://github.com/user-attachments/assets/b347bae8-fe04-4d5e-ab4b-8d2f9d7601fd)
+
+## Bài 7: Chạy mongo db với docker compose
+Yêu cầu chạy monggodb và mongo express để quản lý
+![image](https://github.com/user-attachments/assets/270b6c19-ddc4-4502-830a-ba46aa0fb967)
+![image](https://github.com/user-attachments/assets/96c603f3-ca58-4a7e-af08-b56098297d69)
+![image](https://github.com/user-attachments/assets/22c11f43-106f-4f3c-8b6a-07629f473296)
+
+## Bài 8: Kết nối nhiều dịch vụ với docker compose
+Chạy NodeJS kết nối với MySQL
+![image](https://github.com/user-attachments/assets/270b6c19-ddc4-4502-830a-ba46aa0fb967)
+![image](https://github.com/user-attachments/assets/96c603f3-ca58-4a7e-af08-b56098297d69)
+![image](https://github.com/user-attachments/assets/22c11f43-106f-4f3c-8b6a-07629f473296)
+
+## Bài 9: Chạy ứng dụng Python Flask với docker compose:
+Yêu cầu: Chạy ứng  dụng Flask đơn giản với Docker cOmpose
+![image](https://github.com/user-attachments/assets/29d2aaa6-fa25-4cda-97ca-b5b89ed3469c)
+![image](https://github.com/user-attachments/assets/cfc7de05-3c07-43b7-892f-9667f876c330)
+![image](https://github.com/user-attachments/assets/f8fa13ca-99bd-4ea7-aa62-109686e877e4)
+![image](https://github.com/user-attachments/assets/fde8dc0f-b08b-4354-8d28-70dcdb3dffd7)
+![image](https://github.com/user-attachments/assets/7eb94608-067b-42f5-8156-be69c41cf16e)
+![image](https://github.com/user-attachments/assets/bbdd3403-e593-4ac0-83f4-9f0733286181)
+![image](https://github.com/user-attachments/assets/5caf36fc-fe32-4310-9238-f6835ef17abc)
+
+## Bài 10: Lưu trữ dữ liệu với Docker Volumes:
+Yêu cầu: Chạy Mysql và gắn volumes để dữ liệu không bị mất:
+![image](https://github.com/user-attachments/assets/29082a79-5e26-46d6-a165-af6e144e7003)
+![image](https://github.com/user-attachments/assets/05e38448-3d9d-40cb-8316-55098cf5f2d4)
